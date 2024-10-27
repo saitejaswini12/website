@@ -1,0 +1,224 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container */
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s; /* Animation for container */
+}
+
+.App:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: #f1f3f5; /* Soft light gray for the form */
+  padding: 15px; /* Padding for the form */
+  border-radius: 5px; /* Rounded corners for the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+  transition: background-color 0.3s; /* Smooth transition for form background */
+}
+
+form:hover {
+  background-color: #e9ecef; /* Darken form background on hover */
+}
+
+input, textarea {
+  margin: 5px;
+  padding: 10px;
+  width: calc(100% - 22px); /* Full width minus padding */
+  border: 1px solid #adb5bd; /* Light border for input fields */
+  border-radius: 4px; /* Rounded corners */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input:focus, textarea:focus {
+  border-color: #66b3ff; /* Light blue on focus */
+  box-shadow: 0 0 5px rgba(102, 179, 255, 0.5); /* Glow effect on focus */
+  outline: none;
+}
+body {
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full height for the body */
+  background: linear-gradient(270deg, #6f42c1, #007bff); /* Initial gradient */
+  background-size: 400% 400%; /* Size for animation */
+  animation: gradientAnimation 10s ease infinite; /* Animation */
+}
+
+/* Keyframes for gradient animation */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container */
+  background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s; /* Animation for container */
+}
+
+.App:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: #f1f3f5; /* Soft light gray for the form */
+  padding: 15px; /* Padding for the form */
+  border-radius: 5px; /* Rounded corners for the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+  transition: background-color 0.3s; /* Smooth transition for form background */
+}
+
+form:hover {
+  background-color: #e9ecef; /* Darken form background on hover */
+}
+
+/* Keep the rest of your existing CSS */
+body {
+  margin: 0; /* Remove default margin */
+  height: 100vh; /* Full height for the body */
+  background: linear-gradient(270deg, #ff7e5f, #feb47b, #ff6a88, #ff8a00, #ffd200); /* Multiple color gradient */
+  background-size: 400% 400%; /* Size for animation */
+  animation: gradientAnimation 15s ease infinite; /* Animation */
+}
+
+/* Keyframes for gradient animation */
+@keyframes gradientAnimation {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 100% 50%; }
+  50% { background-position: 100% 100%; }
+  75% { background-position: 0% 100%; }
+  100% { background-position: 0% 50%; }
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px; /* Limit the width of the container */
+  margin: 0 auto; /* Center the container */
+  background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.2s; /* Animation for container */
+}
+
+.App:hover {
+  transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+form {
+  margin-bottom: 20px;
+  background-color: #f1f3f5; /* Soft light gray for the form */
+  padding: 15px; /* Padding for the form */
+  border-radius: 5px; /* Rounded corners for the form */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for the form */
+  transition: background-color 0.3s; /* Smooth transition for form background */
+}
+
+form:hover {
+  background-color: #e9ecef; /* Darken form background on hover */
+}
+
+/* Input and button styles remain the same */
+input, textarea {
+  margin: 5px;
+  padding: 10px;
+  width: calc(100% - 22px); /* Full width minus padding */
+  border: 1px solid #adb5bd; /* Light border for input fields */
+  border-radius: 4px; /* Rounded corners */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+input:focus, textarea:focus {
+  border-color: #66b3ff; /* Light blue on focus */
+  box-shadow: 0 0 5px rgba(102, 179, 255, 0.5); /* Glow effect on focus */
+  outline: none; /* Remove default outline */
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #6f42c1; /* Beautiful purple for the button */
+  color: white; /* White text for contrast */
+  border: none;
+  border-radius: 4px; /* Rounded corners for the button */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+button:hover {
+  background-color: #5a2d9e; /* Darker purple on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+h2 {
+  margin-top: 20px;
+  color: #495057; /* Dark gray for headings */
+  transition: color 0.3s; /* Smooth transition for heading color */
+}
+
+h2:hover {
+  color: #6f42c1; /* Change color on hover */
+}
+
+ul {
+  list-style-type: none; /* Remove bullet points from the list */
+  padding: 0; /* Remove default padding */
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #dee2e6; /* Border for each list item */
+  margin: 5px 0; /* Space between list items */
+  border-radius: 4px; /* Rounded corners for list items */
+  background-color: #e9ecef; /* Light background for list items */
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+li:hover {
+  background-color: #d3d3d3; /* Darker gray on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+}
+body {
+  margin: 0;
+  height: 100vh;
+  background: url('C:\Users\91967\Desktop\gym.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+@keyframes colorChange {
+  0% { color: #ff6f61; }   /* Coral */
+  25% { color: #ffb800; }  /* Yellow */
+  50% { color: #00c9ff; }  /* Sky Blue */
+  75% { color: #92fe9d; }  /* Mint Green */
+  100% { color: #ff6f61; } /* Return to Coral */
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 25px;
+  animation: colorChange 5s infinite;
+  text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
